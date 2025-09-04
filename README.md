@@ -1,27 +1,103 @@
-List of Programs: 
+# Web Technologies Programs
 
-Design a web page for the department timetable containing a suitable header, footer, description of the course codes and titles, faculty name and initials, etc., use href, list tags and add University logo as a background. Using table tag and additional features like spanning rows, columns and table borders. [Refer your class timetable]
+This repository contains 12 programs covering **HTML, CSS, JavaScript, and PHP**.  
+Each program is numbered and described below.
 
-a) Create a form to collect Student feedback. (Use textbox, text area, checkbox, radio button, select box etc.).
+---
 
-b) Create a web page using frame. Divide the page into two parts with Navigation links on left-hand side of page (width=20%) and content page on right-hand side of page (width = 80%). On clicking the navigation Links corresponding content must be shown on the right-hand side.
+## 1. Department Timetable Web Page
+- Create a web page for the department timetable.
+- Features: header, footer, course codes/titles, faculty name/initials, university logo as background.
+- Use `<a>`, list tags, and table with row/column span and borders.
 
-Write HTML code to develop a webpage having two frames that divide the webpage into two equal rows and then divide the row into equal columns. Fill each frame with a different background color.
+---
 
-Create your resume using HTML tags. Also, experiment with colors, text (bold, italic, and different headings), image, link, size, and other related tags.
+## 2. Student Feedback Form
+- Create a form to collect student feedback.
+- Use textbox, textarea, checkbox, radio button, select box, etc.
 
-Design a web page using CSS with suitable design for the following: i. Demonstrate different font styles. ii. Control the repetition of an image with the background-repeat property. iii. Define style for links as a: link, a: active, a: hover, a: visited. iv. Demonstrate Element visibility.
+---
 
-Design a web page of your institute (Ref: Sl.No. 1) with an attractive background color, text color, an Image, font etc. Use External, Internal, and Inline CSS to format the a e.
+## 3. Web Page with Frames (Navigation + Content)
+- Divide the page into two parts using frames:
+  - Left (20%) → Navigation links.
+  - Right (80%) → Content.
+- Clicking a navigation link loads content on the right.
 
-a) Develop a simple calculator for Addition, Subtraction, Multiplication, and Division operations using JavaScript. b) Create an HTML Page that contains a form with fields Name, Email, Mobile No, Gender, Favorite Color, and a button. Write a JavaScript code to validate all the fields when the button is clicked, later combine and display the information in a textbox.
+---
 
-Write an XHTML document that displays a form containing text elements to input register number, sub-code, marks in three tests, and a button element. Also, write JavaScript to compute the average of the two best tests on click of the button and print average marks using an alert. Validate all the fields using JavaScript.
+## 4. Frames with Rows and Columns
+- Create a webpage with two frames dividing into equal rows.
+- Each row further divided into equal columns.
+- Fill each frame with a different background color.
 
-Develop an XHTML document and JavaScript to validate the following fields in a registration page: i. User ID (must be of length 5 to 12). ii. Name (only alphabets and the length should not be less than 15 characters). iii. Password (must be eight characters including one uppercase letter, one special character, and alphanumeric characters). iv. E-mail (should not contain invalid addresses).
+---
 
-a) Write a PHP script to display today’s date in dd-mm-yyyy format. b) Write a PHP script to check whether the number is prime or not when the user inputs a valid number from the client side.
+## 5. Resume using HTML
+- Create your resume using HTML tags.
+- Use text formatting (bold, italic, headings), image, link, font size, and colors.
 
-Create an HTML page that contains textbox, submit/reset button. Write a PHP script to display this information and also store it in a text file.
+---
 
-Write a PHP script for login authentication. Design an HTML form which takes Username and Password from the user and validates against stored Username and Password in a file.
+## 6. CSS Demonstration Page
+- Design a page using CSS demonstrating:
+  1. Different font styles.
+  2. `background-repeat` property.
+  3. Link styles: `a:link`, `a:active`, `a:hover`, `a:visited`.
+  4. Element visibility.
+
+---
+
+## 7. Institute Web Page with CSS
+- Design a web page of your institute (similar to program 1).
+- Use:
+  - Inline CSS
+  - Internal CSS
+  - External CSS
+- Apply attractive background color, text color, font, and images.
+
+---
+
+## 8. JavaScript Programs
+**a)** Develop a simple calculator for addition, subtraction, multiplication, and division.  
+**b)** Create a form with fields (Name, Email, Mobile, Gender, Favorite Color, Button).  
+- Validate all fields using JavaScript.  
+- Display combined info in a textbox.
+
+---
+
+## 9. Test Marks and Average (XHTML + JavaScript)
+- Create a form with:
+  - Register number
+  - Subject code
+  - Marks in 3 tests
+  - Button
+- On click: Compute average of best 2 tests using JavaScript.  
+- Validate fields and display result using `alert`.
+
+---
+
+## 10. Registration Page Validation (XHTML + JavaScript)
+Validate the following fields:
+1. User ID → length 5 to 12  
+2. Name → only alphabets, minimum 15 characters  
+3. Password → at least 8 characters, includes uppercase, special character, and alphanumeric  
+4. Email → valid email format  
+
+---
+
+## 11. PHP Date and Prime Number
+**a)** PHP script to display today’s date in `dd-mm-yyyy` format.  
+**b)** PHP script to check if a number (input from client) is prime or not.
+
+---
+
+## 12. PHP Form Handling & Login
+**a)** Create an HTML form with textbox, submit/reset.  
+- PHP script displays info and stores it in a text file.  
+
+**b)** PHP login authentication:  
+- HTML form for username and password.  
+- Validate against stored credentials in a file.  
+
+---
